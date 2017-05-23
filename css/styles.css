@@ -3,31 +3,37 @@
   font-family: Raleway;
   text-decoration: none;
 }
+.left-nav{
+ float: left;
+ margin-left: 150px;
+ position: absolute;
+left: 10px;
+}
+.left-nav li{
+  display: inline-block;
+    text-align: left;
+  margin-left: 10px;
+  
+}
 .right-nav{
+  position: absolute;
  float: right;
+ right: 10px;
  list-style: none;
  font-size: 1em;
- text-decoration: none;
-
+ 
 }
 .right-nav li{
   display:inline-block;
-  margin-right: 40px;
-  text-decoration: none;
+  text-align: right;
+  margin-right: 10px;
 }
-.left-nav{
- float: left;
- font-size: 1em;
-}
-.left-nav li{
-  display:inline-block;
-  margin-left: 40px;
 
-}
 .wrapper{
-position: absolute;
-  top: 20%;
-  bottom: 50%;
+  position: absolute;
+  top: 30%;
+  right: 0;
+  left: 0;
   text-align: center;
   font-size: 1.4em;
 
@@ -66,6 +72,14 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
+    background-size: cover;
   transition: 1s opacity;
+}
+.logo {
+  width: 100px;
+ display: inline-block;
+  position: absolute;
+  top: 16px;
+  left: -70px;
+ 
 }
